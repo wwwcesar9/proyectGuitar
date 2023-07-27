@@ -1,0 +1,27 @@
+.menu{
+    background-color: #830248;
+
+    --img1: scale(1);
+    --img2: scale(0);
+}
+
+.menu:has( .dropdown:target ){
+    --img1: scale(0);
+    --img2: scale(1);
+
+    --clip:inset(0 0 0 0);
+
+}
+
+.menu__Contenedor{
+    width: 90%;
+    margin: 0 auto;
+    height: 70px;
+    display: grid;
+    grid-template-columns: max-content max-content;
+    grid-template-areas: "title img";
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+

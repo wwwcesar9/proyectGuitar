@@ -1,0 +1,25 @@
+
+#Blog h3{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+#Blog h4{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14.5px;
+}
+#Blog .Contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#Blog article{
+    margin: 9px;
+
+}
+#Blog img{
+    width: 100%;
+    max-width: 360px;
+}

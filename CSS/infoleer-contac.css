@@ -1,0 +1,25 @@
+
+
+.contactanos{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+    margin-bottom: 110px;
+}
+.info-leer{
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+.info-parrafo{
+    /* text-align: justify; */
+    text-align: center;
+    color: rgba(25, 25, 25, 0.955);
+    /* margin-left: 50px  ; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2-info{
+    color: rgba(0, 0, 16, 0.959);
+}
+
